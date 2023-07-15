@@ -129,4 +129,40 @@ In the next section you will be asked to answer the following 5 (five) questions
 
 ## PEER-GRADED FINAL ASSIGNMENT ##
 
-X
+CASE STUDY: Credit Card Fraud
+Enviado el 15 de julio de 2023
+
+
+- List at least 5 (five) data points that are required for the analysis and detection of a credit card fraud. (3 marks)
+
+    1) A mismatched IP Address.
+    2) A sudden change in delivery preference.
+    3) A change in frequency of orders placed.
+    4) Orders that, in monetary terms, are higher than the user average transaction.
+    5) Bulk orders of the same item with slight variations.
+
+
+- Refer to the data table below and identify 3 (three) errors/issues that could impact the accuracy of your findings. (3 marks)
+
+    1) Two cells in the "IP Address" column are empty.
+    2) The format of the dates in the "Transaction Date" column is not the same in all cells.
+    3) One cell in the "Transaction Value" column is empty.
+
+
+- Refer to the data table below and identify 2 (two) anomalies or unexpected behaviors, that would lead you to believe the transaction may be suspect. (2 marks)
+
+    "johnp" suddenly: changes his IP adress (1) and the shipping method (2), and makes purchases for thousands of dollars (3) ordering several of the same products (4) in the middle of the night (5).
+
+
+- Briefly explain your key take-away from the provided data visualization chart. (1 mark)
+
+    1) "johnp" has suspicious behavior that we must investigate.
+    2) "davidg" maintains a consistent purchase history and nothing suspicious.
+    3) "ellend" has an upward trend that we must assess if it is punctual and returns to its previous level or if he really goes out of the ordinary.
+
+
+- Identify the type of analysis that you are performing when you are analyzing historical credit card data to understand what a fraudulent transaction looks like. 
+    · Hint: The four types of Analytics include: Descriptive, Diagnostic, Predictive, Prescriptive. (1 mark)
+
+    We're using DIAGNOSTIC analysis because we are answering the question "Why did it happen?", taking the insights from descriptive analytics to dig deeper to find the cause of the outcome.
+
