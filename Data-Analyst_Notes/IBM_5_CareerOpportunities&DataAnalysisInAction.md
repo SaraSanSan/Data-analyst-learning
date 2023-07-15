@@ -166,3 +166,40 @@ Enviado el 15 de julio de 2023
 
     We're using DIAGNOSTIC analysis because we are answering the question "Why did it happen?", taking the insights from descriptive analytics to dig deeper to find the cause of the outcome.
 
+
+---
+
+CASE STUDY: Credit Card Fraud
+Enviado el 16 de julio de 2023
+
+- List at least 5 (five) data points that are required for the analysis and detection of a credit card fraud. (3 marks)
+
+    1) IP address
+    2) Shipping address
+    3) Transaction Date
+    4) Transaction Time
+    5) Transaction Value
+
+
+- Refer to the data table below and identify 3 (three) errors/issues that could impact the accuracy of your findings. (3 marks)
+
+    1) Two cells in the "IP Address" column are empty.
+    2) The format of the dates in the "Transaction Date" column is not the same in all cells, causing inconsistency.
+    3) One cell in the "Transaction Value" column is empty.
+
+
+- Refer to the data table below and identify 2 (two) anomalies or unexpected behaviors, that would lead you to believe the transaction may be suspect. (2 marks)
+
+    "johnp" suddenly: 
+    1) Changes his IP address, but with the same IP address he choose three different shipping addresses.
+    2) Changes his IP address and he makes higher transaction values (plus: the three of them in the same night).
+
+
+- Briefly explain your key take-away from the provided data visualization chart. (1 mark)
+
+    This graph shows us three purchase histories of three different users. While "davidg" maintains a constant line, "johnp" and "ellend" show an anomalous increase in the value of their transactions (which we should investigate).
+
+
+- Identify the type of analysis that you are performing when you are analyzing historical credit card data to understand what a fraudulent transaction looks like. Hint: The four types of Analytics include: Descriptive, Diagnostic, Predictive, Prescriptive. (1 mark)
+
+    We're using DESCRIPTIVE analysis because we are answering the question "what happened?" over a given period of time by summarizing past data and helping provide essential insights into past events.
