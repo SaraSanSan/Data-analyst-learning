@@ -145,3 +145,5 @@ Edit the active cell and put the cursor at the end of the cell’s contents	F2
 Enter the current time	Ctrl+Shift+colon (:)
 Enter the current date	Ctrl+semi-colon (;)
 
+
+PS: Viewpoints video: Formula "Index Match"
