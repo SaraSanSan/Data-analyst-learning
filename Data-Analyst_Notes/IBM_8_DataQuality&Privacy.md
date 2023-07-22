@@ -19,6 +19,7 @@
     · Collection and Use 
     · Compliance
 
+* Viewpoints: "GARBAGE IN, GARBAGE OUT" (si consumes datos de baja calidad, obtendrás anáalisis de mala calidad)
 
 ## INTRODUCTION TO DATA QUALITY ##
 
