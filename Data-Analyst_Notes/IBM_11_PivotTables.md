@@ -124,3 +124,132 @@
     
 
 > In this video, we learned about some of the other features in Excel that we can use with Pivot Tables, namely; Recommended Pivot Tables, Filters, Slicers, and Timelines.
+
+
+# Hands-on Lab 7: Using Pivot Tables #
+Estimated time needed: 30 minutes
+
+In this lab, first you will learn how to format data as a table, how to create a Pivot Table and use fields to arrange data in a Pivot Table, and how to perform calculations using Pivot Table data. Next, you will learn some other features that we can use with Pivot Tables, including Recommended Charts, Filters, Slicers, and Timelines.
+
+### Software Used in this Lab
+The instruction videos in this course use the full Excel Desktop version as this has all the available product features, but for the hands-on labs we will be using the free ‘Excel for the web’ version as this is available to everyone.
+Although you can use the Excel Desktop software if you have access to this version, it is recommended that you use Excel for the web for the hands-on labs as the lab instructions specifically refer to this version, and there are some small differences in the interface and available features.
+
+### Dataset Used in this Lab
+The dataset used in this lab comes from the following source: https://www.kaggle.com/sudalairajkumar/indian-startup-funding under a CC0: Public Domain license.
+Acknowledgement and thanks also goes to https://trak.in who were generous enough to share the data publicly for free.
+We are using a modified subset of that dataset for the lab, so to follow the lab instructions successfully please use the dataset provided with the lab, rather than the dataset from the original source.
+
+## Objectives
+
+After completing this lab, you will be able to:
+Format data as a table
+Create a Pivot Table and use fields to arrange data in a Pivot Table
+Perform calculations using Pivot Table data
+Use the Recommended Charts feature (does not work with the ‘Basic’ Office for the web plan.)
+Use the Filters feature
+Use the Slicers feature
+Use the Timelines feature
+
+
+## Exercise 1: Introduction to Creating Pivot Tables in Excel
+
+In this exercise, you will learn how to format data as a table, how to create a Pivot Table and use fields to arrange data in a Pivot Table, and how to perform calculations using Pivot Table data.
+
+### Task A: Format data as a table
+Download the file indian_startup_funding_Lab7.xlsx. Upload and open it using Excel for the web.
+
+Select cell A2.
+On the Home tab, in the Tables group, click Format as Table.
+Select Light Gray, Table Style Medium 15.
+
+
+### Task B: Create a pivot table and use fields to arrange data in a pivot table
+
+Select cell D4
+On the Insert tab, click PivotTable.
+Click OK.
+
+Double-click Sheet1, type Pivot1 and click OK.
+
+In the fields list, drag Industry Vertical to Rows.
+
+In the fields list, drag City Location to Rows above Industry Vertical.
+
+In the fields list, drag Startup Name to Rows below Industry Vertical.
+
+In the fields list, drag Amount in USD to Values.
+
+Use the drop down arrow for the City Location and Sort By Value in descending order (Largest to smallest) by the Count of Amount in USD.
+
+In the ribbon, select the PivotTable tab, click Settings, then in the PivotTable Settings pane, under Layout, select Single column.
+
+Right-click on the row label Amritsar and select Expand/Collapse and Collapse Entire Field.
+
+
+### Task C: Perform a simple calculation in a pivot table
+
+In the PivotTable Fields pane, in the Values section, click the drop-down arrow next to Count of Amount in USD, and click Value Field Settings.
+
+Select Summarize value field by > Sum.
+Click OK.
+
+Select the column called Sum of Amount in USD and then on the Home tab, select Accounting Number Format > $ English (United States).
+
+
+
+## Exercise 2: Pivot Table Features
+In this exercise, you will learn some other features that we can use with Pivot Tables, including Recommended Charts, Filters, Slicers, and Timelines.
+
+Note: The ‘Recommended Charts’ feature only works with ‘full’ Office for the web plans (those plans that come with an Office 365 subscription). Recommended Charts do not work with the ‘basic’ plan that comes with a Microsoft Account.
+
+### Task A: Use of the Recommended Charts feature (Optional: If you have a full Office for the web plan)
+Switch to worksheet indian-startup-funding.
+
+Select column F (City Location).
+
+On the Insert tab, select Recommended Charts.
+
+Click + Insert PivotChart.
+
+Switch to worksheet indian-startup-funding again.
+
+Select column C, D, E.
+
+On the Insert tab, select Recommended Charts.
+
+Choose the recommended chart, and click + Insert PivotChart.
+
+
+### Task B: Use of the Filters feature
+Switch to worksheet Pivot1.
+
+In the Pivot Table, click the Row Labels arrow.
+Select City Location, then Filter….
+Just select Burnsville, Delhi, New York, then click OK to display the amounts for startups in these three cities only.
+
+In the Pivot Table, click the Row Labels arrow.
+Select City Location, then click Clear Filter From ‘City Location’ to display the startups in all cities again.
+
+
+### Task C: Use of the Slicers feature
+Download the file indian_startup_funding_Lab7_with_slicers_timelines.xlsx. Upload and open it using Excel for the web.
+
+Switch to worksheet Pivot1 if you are not there.
+In the City Location slicer, select Burnsville, then Delhi, then New York.
+To filter by multiple selection in the City Location slicer, with New York still selected, press CTRL and select Burnsville, and then Delhi.
+To filter using more than one slicer, in the Investors Name slicer, select Amour Infrastructure, then press CTRL and select Westbridge Capital, and then Breakthrough Energy Ventures.
+In the City Location slicer, click the Clear Filter button, then in the Investors Name slicer, click the Clear Filter button.
+
+
+### Task D: Use of the Timelines feature
+
+In the Date timeline, click top right drop-down and select DAYS, then scroll left and right.
+In the Date timeline, click top right drop-down and select QUARTERS.
+In the Date Timeline, select 2019 Q1, then drag 2019 Q1 to 2019 Q3.
+In the Date timeline, click the Clear Filter icon.
+In the Date timeline, click top right drop-down and select YEARS, then select 2020 only.
+
+
+
+> Congratulations! You have completed Lab 7, and you are ready for the next topic.
