@@ -1,31 +1,25 @@
 
-# X #
+# CREATING VISUALIZATIONS AND DASHBOARDS WITH SPREADSHEETS #
 
-# XX #
+# CREATING DASHBOARDS USING SPREADSHEETS #
 
 ### SUMMARY ###
 
 X
 
 
-## X ##
+## INTRODUCTION TO DASHBOARDING ##
 
 X
 
 
 
-## X ##
+## INTERVIEW: Using Dashboards to Present Data Results ##
 
 X
 
 
 
-## X ##
-
-X
-
-
-
-## X ##
+## CREATING A SIMPLE DASHBOARD USING EXCEL ##
 
 X

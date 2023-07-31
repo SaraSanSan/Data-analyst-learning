@@ -1,31 +1,37 @@
 
-# X #
+# CREATING VISUALIZATIONS AND DASHBOARDS WITH COGNOS ANALYTICS #
 
-# XX #
+# CREATING DASHBOARDS USING IBM COGNOS ANALYTICS #
 
 ### SUMMARY ###
 
 X
 
 
-## X ##
+## Cognos Analytics: INTRODUCTION & HOW TO SIGN UP ##
 
 X
 
 
 
-## X ##
+## NAVIGATING IN Cognos Analytics ##
 
 X
 
 
 
-## X ##
+## LAB: Getting Started with Cognos Analytics ##
 
 X
 
 
 
-## X ##
+## CREATING A SIMPLE DASHBOARD in Cognos  ##
+
+X
+
+
+
+## ADVANCED CAPABILITIES in Cognos Analytics Dashboards  ##
 
 X

@@ -1,31 +1,14 @@
 
-# X #
+# FINAL PROJECT #
 
-# XX #
-
-### SUMMARY ###
-
-X
+# CREATING VISUALIZATIONS AND DASHBOARDS #
 
 
-## X ##
+## CREATING VISUALIZATIONS USING EXCEL ##
 
 X
 
 
-
-## X ##
-
-X
-
-
-
-## X ##
-
-X
-
-
-
-## X ##
+## CREATING VISUALIZATIONS USING COGNOS ANALYTICS ##
 
 X

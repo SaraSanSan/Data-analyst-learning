@@ -1,31 +1,19 @@
 
-# X #
+# CREATING VISUALIZATIONS AND DASHBOARDS WITH SPREADSHEETS #
 
-# XX #
+# CREATING ADVANCED CHARTS #
 
 ### SUMMARY ###
 
 X
 
 
-## X ##
+## Creating TREEMAPS, SCATTER CHARTS & HISTOGRAMS ##
 
 X
 
 
 
-## X ##
-
-X
-
-
-
-## X ##
-
-X
-
-
-
-## X ##
+## Creating FILLED MAP CHARTS & SPARKLINES ##
 
 X
