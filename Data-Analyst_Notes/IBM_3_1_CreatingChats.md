@@ -7,20 +7,38 @@
 
 In this lesson you have learned:
 
-The importance of charts and how they are able to shape our data.
+- The importance of charts and how they are able to shape our data.
 
-How to use visualizations to provide meaningful information.
+- How to use visualizations to provide meaningful information.
 
-How to use Excel to create line, pie, and bar charts.
+- How to use Excel to create line, pie, and bar charts.
 
-About Excel pivot tables in creating area and column charts using the PivotChart feature. 
+- About Excel pivot tables in creating area and column charts using the PivotChart feature. 
 
-How to use a pivot table or pivot chart to filter data and how to expand and collapse data levels.
+- How to use a pivot table or pivot chart to filter data and how to expand and collapse data levels.
 
 
 ## INTRODUCTION ##
 
-It is often said that “a picture is worth a thousand words”. This phrase is especially relevant when it comes to Data Analytics. Data visualization plays an essential role in the representation of both small and large-scale data. This course from IBM is designed to help you tell a compelling story with your data using various visualization techniques. You will work with both Excel and Cognos Analytics to acquire the basic skills needed to create different types of plots, charts and graphs and build interactive dashboards - which are important parts of the skillset required to become a Data Analyst. You will not only learn data visualization techniques using Excel and Cognos Analytics but also practice using multiple hands-on labs and assignments throughout the course. In Module 1 you will learn about different types of charts and the Excel functions that are used to create basic charts and pivot chart visualizations. By learning how to manipulate these features and by creating visualizations, you will begin to understand the important role charts play in telling a data-driven story. In Module 2 you will learn about creating advanced charts and learn the basics of dashboarding and how to create simple dashboards in Excel. You will also learn how dashboards can be used to provide real-time snapshots of key performance indicators. In Module 3 you will learn about Cognos Analytics, including how to sign up for it, how to navigate around it, and how to easily create stunning dashboards. You will also learn some of the more advanced dashboarding capabilities of Cognos Analytics, and make your dashboards interactive. In the final module, you will complete a two-part hands-on final assignment lab, which will guide you on how to create visualizations in Excel, and how to create visualizations and dashboards in Cognos Analytics. This will involve you understanding what the scenario requirements are, and then creating visualizations and a dashboard to fulfil those requirements. You will follow two different business scenarios throughout the course, with each using their own dataset; these different scenarios and datasets will be used in the lesson videos and in the hands-on labs. After completing this course, you will be able to explain the Role Visualizations Play in Conveying a Story About Data; create Basic Charts, Pivot Charts, and Advanced Charts in Excel Spreadsheets; create a Simple Dashboard Using Excel.; provision an Instance of Cognos Analytics in the Cloud.; navigate Around the Cognos Analytics Interface and Leverage its Rich Visualization Capabilities; and build Interactive Dashboards Using Cognos Analytics with a Variety of Basic and Advanced Visualizations. You will also perform some intermediate level data visualization and dashboard creation tasks to address a business scenario. The course team and other peers are available to help in the course discussion forums in case you require any assistance. Let’s get started with your next video where you will get an introduction to charts…
+- It is often said that “a picture is worth a thousand words”. This phrase is especially relevant when it comes to Data Analytics. Data visualization plays an essential role in the representation of both small and large-scale data. 
+
+- This course from IBM is designed to help you tell a compelling story with your data using various visualization techniques. You will work with both Excel and Cognos Analytics to acquire the basic skills needed to create different types of plots, charts and graphs and build interactive dashboards - which are important parts of the skillset required to become a Data Analyst. 
+
+- You will not only learn data visualization techniques using Excel and Cognos Analytics but also practice using multiple hands-on labs and assignments throughout the course. 
+    
+    · In Module 1 you will learn about different types of charts and the Excel functions that are used to create basic charts and pivot chart visualizations. By learning how to manipulate these features and by creating visualizations, you will begin to understand the important role charts play in telling a data-driven story. 
+    
+    · In Module 2 you will learn about creating advanced charts and learn the basics of dashboarding and how to create simple dashboards in Excel. You will also learn how dashboards can be used to provide real-time snapshots of key performance indicators. 
+    
+    · In Module 3 you will learn about Cognos Analytics, including how to sign up for it, how to navigate around it, and how to easily create stunning dashboards. You will also learn some of the more advanced dashboarding capabilities of Cognos Analytics, and make your dashboards interactive. 
+    
+    · In the final module, you will complete a two-part hands-on final assignment lab, which will guide you on how to create visualizations in Excel, and how to create visualizations and dashboards in Cognos Analytics. This will involve you understanding what the scenario requirements are, and then creating visualizations and a dashboard to fulfil those requirements. 
+    
+- You will follow two different business scenarios throughout the course, with each using their own dataset; these different scenarios and datasets will be used in the lesson videos and in the hands-on labs. 
+
+- After completing this course, you will be able to explain the Role Visualizations Play in Conveying a Story About Data; create Basic Charts, Pivot Charts, and Advanced Charts in Excel Spreadsheets; create a Simple Dashboard Using Excel.; provision an Instance of Cognos Analytics in the Cloud.; navigate Around the Cognos Analytics Interface and Leverage its Rich Visualization Capabilities; and build Interactive Dashboards Using Cognos Analytics with a Variety of Basic and Advanced Visualizations. You will also perform some intermediate level data visualization and dashboard creation tasks to address a business scenario. 
+
+> The course team and other peers are available to help in the course discussion forums in case you require any assistance. Let’s get started with your next video where you will get an introduction to charts…
 
 
 
@@ -61,7 +79,39 @@ Enter the current date	Ctrl+semi-colon (;)
 
 ## INTRODUCTION TO CHARTS ##
 
-In this video, we'll give an overview of several different types of charts and visualizations and discuss how they can be used to tell a story. Let's begin by looking at a line chart when comparing different but related datasets. A line chart is a great way to display the information. They are able to display trends and show how a data value is changing in relation to a continuous variable. For example, if time is a continuous variable, how has the sale of a product or multiple products changed? Next, we have pie charts. This type of chart can show the breakdown of an entity into its sub-parts and the proportion of the subparts in relation to one another. Each portion of the pie represents a static value or category, and the sum of all categories is equal to a 100 percent. In this example, we have a Marketing Campaign with four distinct categories. Social Sites, Native Advertising, Paid Influencers, and Live Events. With this type of data representation, we can easily see the total number of leads generated per category. We now look at one of the most commonly used charts, the Bar Chart. This type of chart is the most common as they are easy to create and are great for comparing related data sets or parts of a whole. For example, in this bar chart, we can see the population numbers of 10 different countries and how they compare to one another. We can also use stacked bars in which each bar is divided into sub bars that are stacked end to end. In this stacked bar, we can see the population of each country split into four age ranges. Would you like the graph to appear vertical and not horizontal? Then column charts would be a great pick. This type of chart can be used quite effectively to show change over time and to compare values side-by-side. For example, showing page views versus user's session time on a website as it changes on a month-to-month basis. While this type of chart looks similar to a bar chart, they cannot always be used interchangeably. For example, a column chart may be better suited for showing negative and positive values. Next, we have treemaps, which are useful for displaying complex hierarchies using nested rectangles. In this example, the treemap depicts statewide employment rates within the population of a country over the last year. The size of the rectangle represents the population and the color represents the employment rate. We can click on any region to see the employment data of the sub-regions within the selected region. Trying to display a pipeline or different stages of a continuous process, then funnel charts are the way to go. In this example, the funnel chart is showing the conversion rate at each stage of the sales process from lead generation to the final sale. Another exceptional chart is the scatter chart. In this type of chart, the circle colors represent the categories of data and the circle sizes are indicative of the volume of data. For example, in this scatter chart, we can see each product line by the number of units sold and the revenue it brings. A scatter chart can be great for revealing trends, clusters, patterns, and correlations between data points. Next we look at bubble charts. This is a variant of scatter charts, and they are useful for comparing a handful of categories to one another in terms of relative significance. For example, understanding areas of significant expenditure in an organization's sales budgets. Lastly, we have sparklines. Sparklines do not include an axis or coordinates, yet they display trends simply and effectively. These are great for showing the general trend of a variation. For example, stock market price fluctuations from the opening to the closing of a trading day. In this video, we learned about the importance of charts and how they are able to shape our data to provide meaningful information. In the next video, we will dive into more details about how to create and configure different types of charts in Excel.
+> In this video, we'll give an overview of several different types of charts and visualizations and discuss how they can be used to tell a story. Let's begin by looking at a line chart when comparing different but related datasets. 
+
+- A LINE chart is a great way to display the information. They are able to display trends and show how a data value is changing in relation to a continuous variable. 
+    · For example, if time is a continuous variable, how has the sale of a product or multiple products changed? 
+    
+- A PIE chart can show the breakdown of an entity into its sub-parts and the proportion of the subparts in relation to one another. Each portion of the pie represents a static value or category, and the sum of all categories is equal to a 100 percent. 
+    · In this example, we have a Marketing Campaign with four distinct categories. Social Sites, Native Advertising, Paid Influencers, and Live Events. With this type of data representation, we can easily see the total number of leads generated per category. 
+    
+- A BAR Chart is the most common as they are easy to create and are great for comparing related data sets or parts of a whole. 
+    · For example, in this bar chart, we can see the population numbers of 10 different countries and how they compare to one another. We can also use stacked bars in which each bar is divided into sub bars that are stacked end to end. In this stacked bar, we can see the population of each country split into four age ranges. 
+    
+- Would you like the graph to appear vertical and not horizontal? Then COLUMN charts would be a great pick. This type of chart can be used quite effectively to show change over time and to compare values side-by-side. 
+    · For example, showing page views versus user's session time on a website as it changes on a month-to-month basis. 
+    
+    * While this type of chart looks similar to a bar chart, they cannot always be used interchangeably. For example, a column chart may be better suited for showing negative and positive values. 
+    
+- Next, we have TREEMAPS, which are useful for displaying complex hierarchies using nested rectangles. 
+    · In this example, the treemap depicts statewide employment rates within the population of a country over the last year. The size of the rectangle represents the population and the color represents the employment rate. We can click on any region to see the employment data of the sub-regions within the selected region. 
+    
+- Trying to display a pipeline or different stages of a continuous process, then FUNNEL charts are the way to go. 
+    · In this example, the funnel chart is showing the conversion rate at each stage of the sales process from lead generation to the final sale. 
+    
+- Another exceptional chart is the SCATTER chart. In this type of chart, the circle colors represent the categories of data and the circle sizes are indicative of the volume of data. 
+    · For example, in this scatter chart, we can see each product line by the number of units sold and the revenue it brings. A scatter chart can be great for revealing trends, clusters, patterns, and correlations between data points. 
+    
+- Next we look at BUBBLE charts. This is a variant of scatter charts, and they are useful for comparing a handful of categories to one another in terms of relative significance. 
+    · For example, understanding areas of significant expenditure in an organization's sales budgets. 
+    
+- Lastly, we have SPARKLINES. Sparklines do not include an axis or coordinates, yet they display trends simply and effectively. These are great for showing the general trend of a variation. 
+    · For example, stock market price fluctuations from the opening to the closing of a trading day. 
+    
+
+> In this video, we learned about the importance of charts and how they are able to shape our data to provide meaningful information. In the next video, we will dive into more details about how to create and configure different types of charts in Excel.
 
 
 
