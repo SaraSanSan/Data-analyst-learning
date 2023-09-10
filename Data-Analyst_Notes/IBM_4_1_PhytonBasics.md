@@ -1,11 +1,10 @@
 
-# X #
-
-# XX #
+# PHYTON BASICS #
 
 ### SUMMARY ###
 
 X
+
 
 
 ## X ##
