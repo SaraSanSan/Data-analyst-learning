@@ -379,6 +379,7 @@ The heading and paragraph tags are the children of the body tag;
 and as they are all children of the body tag they are siblings of each other.
 The bold tag is a child of the heading tag,
 the content of the tag is also part of the tree but this can get unwieldy to draw.
+
 Next, let’s review HTML tables.
 To define an HTML table we have the table tag.
 Each table row is defined with a  <tr>  tag, you can also use a table header tag for the first row.
